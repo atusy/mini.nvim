@@ -1,5 +1,7 @@
 --- *mini.nvim* Collection of minimal, independent and fast Lua modules
 ---
+--- New undocumented text.
+---
 --- MIT License Copyright (c) 2021 Evgeni Chasnovski
 ---
 --- ==============================================================================
@@ -336,6 +338,8 @@
 --- Note: using function values inside buffer variables requires Neovim>=0.7.
 ---@tag mini.nvim-buffer-local-config
 
-vim.notify([[Do not `require('mini')` directly. Setup every module separately.]])
+vim.notify(
+[[Do not `require('mini')` directly. Setup every module separately.]]
+)
 
 return {}
